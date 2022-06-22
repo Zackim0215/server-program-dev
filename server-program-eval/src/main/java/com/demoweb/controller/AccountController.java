@@ -18,7 +18,7 @@ import com.demoweb.service.AccountServiceImpl;
 public class AccountController {
 	
 	@Autowired
-	@Qualifier("accountService")
+	@Qualifier("accountService") 
 	private AccountService accountService;
 	
 	
